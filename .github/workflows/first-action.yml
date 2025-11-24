@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print salutations
-        run: echo "Hello World!"
+        run: |
+              echo "Hello World!"
+              echo "Hello User!"
       - name: Print goodbye
-        run: echo "Done - good bye!"
+        run: echo "Done - goodbye!"
